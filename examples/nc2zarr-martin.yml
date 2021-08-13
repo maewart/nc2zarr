@@ -1,0 +1,12 @@
+# Run
+#
+# $ nc2zarr -c nc2zarr-example.yml
+#
+
+input:
+  paths: data/meltrates.nc
+
+output:
+  path: data/test_melt.zarr
+  overwrite: true
+  consolidated: true
